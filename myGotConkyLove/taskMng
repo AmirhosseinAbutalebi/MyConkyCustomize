@@ -1,0 +1,48 @@
+conky.config = {
+	own_window = true,
+	own_window_type = 'dock',
+  	own_window_class = 'conky',
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+	own_window_argb_visual = true,
+	own_window_argb_value = 0, -- transparent
+	own_window_colour = '000000',
+
+	double_buffer = true,
+	background = true,
+	draw_shades = false,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = true,
+
+	alignment = 'top_left',
+	gap_x = 110,
+	gap_y = 400,
+	minimum_width = 500,
+
+	font = 'GT America:size=13',
+	use_xft = true,
+	xftalpha = 1,
+	total_run_times = 0,
+
+	color1 = '#f9a825',
+	color2 = '#ffffff',
+	color3 = '#f9a825',
+	color4 = '#FFC200',
+	color5 = '#ff5733',
+	color6 = '#DAF7A6',
+	color7 = '#C70039',
+
+};
+
+conky.text = [[
+${color1}${voffset 0}${offset 4}${font Hansip:size=9:bold}Name: ${alignc 85}PID${alignc 60}CPU${alignc 40}MEM${color2}${font Open Sans:pixelsize=10}
+${offset 8}${top name 1}${alignc 90}${top pid 1}${alignc 65}${top cpu 1}${alignc 40}${top mem 1}
+${offset 8}${top name 2}${alignc 90}${top pid 2}${alignc 65}${top cpu 2}${alignc 40}${top mem 2}
+${offset 8}${top name 3}${alignc 90}${top pid 3}${alignc 65}${top cpu 3}${alignc 40}${top mem 3}
+${offset 8}${top name 4}${alignc 90}${top pid 4}${alignc 65}${top cpu 4}${alignc 40}${top mem 4}
+${offset 8}${top name 5}${alignc 90}${top pid 5}${alignc 65}${top cpu 5}${alignc 40}${top mem 5}
+${offset 8}${top name 6}${alignc 90}${top pid 6}${alignc 65}${top cpu 6}${alignc 40}${top mem 6}
+${offset 8}${top name 7}${alignc 90}${top pid 7}${alignc 65}${top cpu 7}${alignc 40}${top mem 7}
+${offset 8}${top name 8}${alignc 90}${top pid 8}${alignc 65}${top cpu 8}${alignc 40}${top mem 8}
+${offset 8}${top name 9}${alignc 90}${top pid 9}${alignc 65}${top cpu 9}${alignc 40}${top mem 9}
+${offset 8}${top name 10}${alignc 90}${top pid 10}${alignc 65}${top cpu 10}${alignc 40}${top mem 10}]];

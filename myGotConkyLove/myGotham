@@ -1,0 +1,39 @@
+conky.config = {
+	own_window = true,
+	own_window_type = 'dock',
+  	own_window_class = 'conky',
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+	own_window_argb_visual = true,
+	own_window_argb_value = 0, -- transparent
+	own_window_colour = '000000',
+
+	double_buffer = true,
+	background = true,
+	draw_shades = false,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = true,
+
+	alignment = 'top_left',
+	gap_x = 15,
+	gap_y = 50,
+	minimum_width = 550, minimum_height = 150,
+	maximum_width = 600, maximum_height = 200,
+
+	font = 'GT America:size=13',
+	use_xft = true,
+	xftalpha = 1,
+	total_run_times = 0,
+
+	color1 = '#f9a825',
+	color2 = '#ffffff',
+	color3 = '#f9a825',
+	color4 = '#FFC200',
+	color5 = '#ff5733',
+	color6 = '#DAF7A6',
+	color7 = '#C70039',
+
+};
+conky.text = [[
+${voffset 10}${color4}${font GE Inspira:pixelsize=120}${time %I:%M}${font}${color5}${voffset -84}${offset 10}${font GE Inspira:pixelsize=42}${time %d} ${voffset -15}${color6}${font GE Inspira:pixelsize=22}${time  %B} ${time %Y}${color7}${font}${voffset 24}${font GE Inspira:pixelsize=58}${offset -148}${time %A}${font}${color2}
+]];

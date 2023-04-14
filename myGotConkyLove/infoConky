@@ -1,0 +1,46 @@
+conky.config = {
+	own_window = true,
+	own_window_type = 'dock',
+  	own_window_class = 'conky',
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+	own_window_argb_visual = true,
+	own_window_argb_value = 0, -- transparent
+	own_window_colour = '000000',
+
+	double_buffer = true,
+	background = true,
+	draw_shades = false,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = true,
+
+	alignment = 'top_left',
+	gap_x = 110,
+	gap_y = 210,
+
+	font = 'GT America:size=13',
+	use_xft = true,
+	xftalpha = 1,
+	total_run_times = 0,
+
+	color1 = '#f9a825',
+	color2 = '#ffffff',
+	color3 = '#f9a825',
+	color4 = '#FFC200',
+	color5 = '#ff5733',
+	color6 = '#DAF7A6',
+	color7 = '#C70039',
+
+};
+
+conky.text = [[
+${font Hansip:size=12}${color}${offset 25}CPU: ${cpu} ${offset 50}${color}RAM: ${memperc} %
+${color #dc7633}${cpubar 10,100}${offset 20}${color #dc7633}${membar 10,100}
+${offset 10}${font Hansip:size=12}${color FFA300}RAM : ${offset 9}$color$mem / $memmax
+---------------------------------------------
+${offset 25}ROOT${offset 70}${color}HOME
+${color #dc7633}${fs_bar 10,100 /}${offset 20}${color #dc7633}${fs_bar 10,100 /home}
+${font Hansip:size=9}${color}${fs_used /} / ${fs_size /}${offset 20}${color}${fs_used /home} / ${fs_size /home}
+${offset 25}(${fs_free /})${offset 60}(${fs_free /home})${font Hansip:size=12}
+---------------------------------------------
+]];
