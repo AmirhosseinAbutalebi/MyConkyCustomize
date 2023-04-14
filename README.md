@@ -5,3 +5,8 @@ follow command :
 ```
 cp myGotConkyLove ~/.conky
 ```
+or use install.sh with this command:
+```
+chmod +x install.sh
+./install.sh
+```
