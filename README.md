@@ -1,5 +1,6 @@
 # MyConkyCustomize
 my conky theme and my customize. (for clock use gotham theme) <br>
+you need Hansip.ttf for infoconky for font or conky use your deafult font.<br>
 ![](https://github.com/AmirhosseinAbutalebi/MyConkyCustomize/blob/master/myGotConkyLove/infoConky.jpg)<br>
 ![](https://github.com/AmirhosseinAbutalebi/MyConkyCustomize/blob/master/myGotConkyLove/littleBotConky.jpg)<br>
 ![](https://github.com/AmirhosseinAbutalebi/MyConkyCustomize/blob/master/myGotConkyLove/myGotham.jpg)<br>
